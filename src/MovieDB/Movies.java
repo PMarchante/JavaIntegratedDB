@@ -1,9 +1,9 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+package MovieDB;
+
+import java.sql.*;
+
 //have to include the sql jar in the external libraries
-public class MovieList {
+public class Movies {
 	
 	private Connection connect(){
 		String url = "jdbc:sqlite:C:\\Users\\DrunkCow\\OneDrive\\Java\\IntelliJ Projects\\JavaIntegratedDB\\database\\db.sqlite";
@@ -43,11 +43,7 @@ public class MovieList {
 			Connection conn = this.connect();
 			PreparedStatement statement = conn.prepareStatement(sql2);
 			
-			//sets the corresponding parameters
-			//statement.setInt(1,year2);
-			//statement.setInt(1, newYear);
-			//statement.setString(2, nameColumn);
-			//statement.setInt(4, criticRating);
+		
 			
 			//sets the parameters when using string SQL2
 			statement.setInt(1,newYear);
@@ -64,10 +60,10 @@ public class MovieList {
 	
 	
 	//insert new row into the database
-	public void insert(String name, int year){
+	public void insert(int id,String name, int year){
 		//what is in parenthesis is the column name
 		//test is the name of the DB
-		String sql = "INSERT INTO TEST(Name,year) VALUES(?,?)";
+		String sql = "INSERT INTO TEST(ID,Name,year) VALUES(?,?,?)";
 		
 		try{
 			Connection conn = this.connect();
@@ -76,11 +72,13 @@ public class MovieList {
 			//sets the corresponding parameters
 			
 			//the 1 means it corresponds to the first questionmark
-			statement.setString(1,name);
-			statement.setInt(2,year);
+			statement.setInt(1,id);
+			statement.setString(2,name);
+			statement.setInt(3,year);
 			
 			//actually pushes the update to SQL
 			statement.executeUpdate();
+			System.out.println("inserted new data into db\n" + "ID = " + id +"\nName = " + name + "\nYear = " +year);
 		}
 		catch (SQLException e){
 			System.out.println(e.getMessage());
@@ -88,9 +86,28 @@ public class MovieList {
 		}
 	}
 	
+	public void displayAllData(){
+		//this will get all the id, name and year from the table
+		String sql = "SELECT ID, Name,year FROM test";
+		
+		try {
+			Connection conn = this.connect();
+			Statement statement = conn.createStatement();
+			ResultSet rs = statement.executeQuery(sql);
+			
+			//loops through the results
+			while (rs.next()){
+				System.out.println(rs.getInt("ID") + "\t" + rs.getString("Name") + "\t" + rs.getInt("year"));
+			}
+		}
+		
+		catch (SQLException e){
+			System.out.println(e.getMessage());
+		}
+	}
 	
 	public static void main (String[] args) {
-	MovieList test = new MovieList();
+	Movies test = new Movies();
 	
 	//test.insert("fuck my ass",2018);
 		//
@@ -106,10 +123,12 @@ public class MovieList {
 		
 		//this update will fail because the ID column is a primary key and MUST be unique
 		//the id of 6 already exists
-		test.update(2019,30,"pedro");
+		//test.update(209,30,"fuck");
+		//test.insert(3,"oscar",1990);
 		
+		test.displayAllData();
 	}
 	
 	
 	
-}//end movieList
+}//end Movies class
