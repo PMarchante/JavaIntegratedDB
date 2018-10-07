@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaIntegratedDB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaIntegratedDB_jar</output-path>
+    <root id="archive" name="JavaIntegratedDB.jar">
+      <element id="module-output" name="JavaIntegratedDB" />
+      <element id="extracted-dir" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.16.1/sqlite-jdbc-3.16.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
