@@ -28,8 +28,8 @@ public class Movies {
 		//here i am changing the value in the year column depending on the name column
 		//String sql = "UPDATE test SET year =?"  + "WHERE Name =?";
 		
-		//this string updates the test TABLE sets a value in the year column and id column where
-		//the specified name column
+		//this string updates the test TABLE. sets a value in the year column and id column where
+		//the specified name exists
 		String sql2 ="UPDATE test SET year =?," + "Name =?" + "WHERE ID =?";
 		
 		//this will capitalize the first letter of the name entered
