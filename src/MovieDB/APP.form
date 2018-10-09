@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MovieDB.APP">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4210753"/>
+      <name value="Movie database"/>
+      <preferredSize width="500" height="300"/>
+    </properties>
+    <border type="etched" title="Movie list" title-justification="1" title-position="2">
+      <font name="Courier New"/>
+      <title-color color="-1758"/>
+    </border>
+    <children>
+      <scrollpane id="d55bb" binding="scrollPane">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <verticalScrollBarPolicy value="20"/>
+        </properties>
+        <border type="bevel-lowered" title="Movie results">
+          <font name="Courier New"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="9acad" class="javax.swing.JTextArea" binding="dataDisplay">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font name="Courier New"/>
+              <lineWrap value="true"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="db87d" class="javax.swing.JLabel" binding="yearReleased">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <text value="Year released"/>
+        </properties>
+      </component>
+      <component id="9fd5b" class="javax.swing.JLabel" binding="movieTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <text value="Movie title"/>
+        </properties>
+      </component>
+      <component id="cae83" class="javax.swing.JComboBox" binding="comboBox">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <model>
+            <item value="Input data"/>
+            <item value="Display sorted data by name"/>
+            <item value="Display sorted data by year"/>
+            <item value="Find by name"/>
+            <item value="Find by year released"/>
+            <item value="Display all data"/>
+            <item value="Dump data to file"/>
+          </model>
+        </properties>
+      </component>
+      <component id="88068" class="javax.swing.JButton" binding="submitBtn">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="4f107" class="javax.swing.JTextField" binding="yearTextInput">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+      <component id="751d6" class="javax.swing.JTextField" binding="titleTextInput">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

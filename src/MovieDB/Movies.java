@@ -86,30 +86,11 @@ public class Movies {
 		}
 	}
 	
-	public void displayAllData(){
-		//this will get all the id, name and year from the table
-		String sql = "SELECT ID, Name,year FROM test";
-		
-		try {
-			Connection conn = this.connect();
-			Statement statement = conn.createStatement();
-			ResultSet rs = statement.executeQuery(sql);
-			
-			//loops through the results
-			while (rs.next()){
-				System.out.println(rs.getInt("ID") + "\t" + rs.getString("Name") + "\t" + rs.getInt("year"));
-			}
-		}
-		
-		catch (SQLException e){
-			System.out.println(e.getMessage());
-		}
-	}
-	
 	public static void main (String[] args) {
-	Movies test = new Movies();
-	
-	//test.insert("fuck my ass",2018);
+		
+		Movies test = new Movies();
+		
+		//test.insert("fuck my ass",2018);
 		//
 		////update using string sql
 		////test.update(202,"omfg");
@@ -127,7 +108,62 @@ public class Movies {
 		//test.insert(3,"oscar",1990);
 		
 		test.displayAllData();
+		
+		test.deleteData("oscar");
+		
+		test.displayAllData();
 	}
+	
+	public void displayAllData(){
+		//this will get all the id, name and year from the table
+		String sql = "SELECT ID, Name,year FROM test";
+		
+		try {
+			Connection conn = this.connect();
+			Statement statement = conn.createStatement();
+			ResultSet rs = statement.executeQuery(sql);
+			
+			//loops through the results
+			while (rs.next()){
+				//this will print out the values in the columns, can use the name of the column or the index of the column,
+				//so in the test DB index 1 is ID column
+				System.out.println(rs.getInt("ID") + "\t" + rs.getString("Name") + "\t" + rs.getInt("year"));
+				//System.out.println("gets only name " + rs.getString("Name"));
+				//System.out.println(rs.getString(2));
+				
+				//can use if statements to only get the data we are looking for
+				//String name = "oscar";
+				//if(rs.getString(2).equalsIgnoreCase(name)){
+				//System.out.println(rs.getString(2));
+				//}
+				
+			}
+		}
+		
+		catch (SQLException e){
+			System.out.println(e.getMessage());
+		}
+	}//end display all data method
+	
+	public void deleteData (String name) {
+		
+		String sql = "DELETE FROM test WHERE Name=?";
+		try {
+			
+			Connection connection = this.connect();
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			
+			//set what the parameters of the prepared statement are
+			preparedStatement.setString(1, name);
+			
+			//actually delete whatever i put in for name
+			preparedStatement.executeUpdate();
+		}//end try
+		
+		catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}//end delete data
 	
 	
 	
