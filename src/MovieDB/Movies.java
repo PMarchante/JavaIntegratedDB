@@ -5,6 +5,37 @@ import java.sql.*;
 //have to include the sql jar in the external libraries
 public class Movies {
 	
+	private String formattedName;
+	private int formattedYear;
+	
+	public String getFormattedName () {
+		
+		return formattedName;
+	}
+	
+	public void setFormattedName (String formattedName) {
+		//removes all leading and trailing space also any double space inbetween words
+		formattedName = formattedName.trim().replaceAll(" +", "");
+		this.formattedName = formattedName;
+	}
+	
+	
+	public int getFormattedYear () {
+		
+		return formattedYear;
+	}
+	
+	public void setFormattedYear (int formattedYear) {
+		//because the user can add spaces to the year value and SQL treats it as a string i had to remove all space
+		String format;
+		Integer tmp = new Integer(formattedYear);
+		format = tmp.toString().replaceAll("\\s", "");
+		formattedYear = Integer.parseInt(format);
+		
+		this.formattedYear = formattedYear;
+	}
+	
+	
 	private Connection connect(){
 		String url = "jdbc:sqlite:C:\\Users\\DrunkCow\\OneDrive\\Java\\IntelliJ Projects\\JavaIntegratedDB\\database\\db.sqlite";
 		
