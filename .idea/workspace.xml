@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaIntegratedDB:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cdd2fdf-20f8-4a98-a666-9e2c3215b9fc" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="integratedDB" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="integratedDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="integratedDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="integratedDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="Movielist: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="c2ae53ef-be7f-45c9-8b49-e4ac541c89ec" />
+    </checked>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-978960298">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MOVIES" value="1" />
+          <entry key="blah" value="1" />
+          <entry key="form" value="1" />
+          <entry key="java" value="4" />
+          <entry key="meta" value="1" />
+          <entry key="movie list" value="5" />
+          <entry key="movielist" value="1" />
+          <entry key="sql" value="23" />
+          <entry key="sql (fragment)" value="1" />
+          <entry key="sqlite_master" value="1" />
+          <entry key="test" value="4" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Data Fragment" value="1" />
+          <entry key="Database Element" value="13" />
+          <entry key="GUI_DESIGNER_FORM" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SQL" value="7" />
+          <entry key="Scratch" value="16" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="19" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="4555" />
+          <entry key="sql" value="502" />
+          <entry key="txt" value="219" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4555" />
+          <entry key="PLAIN_TEXT" value="225" />
+          <entry key="SQL" value="384" />
+          <entry key="Scratch" value="137" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MovieDB/Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+              <folding>
+                <element signature="method#getFormattedYear#0;class#Movies#0" />
+                <element signature="method#connect#0;class#Movies#0" />
+                <element signature="method#deleteData#0;class#Movies#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MovieDB/APP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://48858c43-bb48-48f3-bb1d-04897b2f159e/schema/main/table/test">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pedro Marchante" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="44add9ff-5796-4c71-9320-c2057b440645" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c927175a-28c9-4d4e-8306-04a7a4435dbe/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/43b9ae2a-8ef6-4ca1-87f6-216d37062115/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/console.sql" />
+        <option value="c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/schema/main/table/movie list.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/34475248-27e1-403c-9954-d7fbb1f67529/console.sql" />
+        <option value="$PROJECT_DIR$/src/MovieList.java" />
+        <option value="$PROJECT_DIR$/src/MovieDB/MovieList.java" />
+        <option value="$PROJECT_DIR$/src/MovieDB/SQLTutorial.java" />
+        <option value="$PROJECT_DIR$/src/MovieDB/APP.form" />
+        <option value="$PROJECT_DIR$/src/MovieDB/jsj.java" />
+        <option value="$PROJECT_DIR$/src/MovieDB/Movies.java" />
+        <option value="$PROJECT_DIR$/src/MovieDB/APP.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="309" />
+    <option name="y" value="68" />
+    <option name="width" value="1240" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaIntegratedDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaIntegratedDB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaIntegratedDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaIntegratedDB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaIntegratedDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaIntegratedDB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieDB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaIntegratedDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby&#10;h2&#10;sqlite" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539937609505" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="SQLite&#10;GenericSQL&#10;JAVA" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.APP">
+    <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieDB.APP" />
+      <module name="JavaIntegratedDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MovieDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Movies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieDB.Movies" />
+      <module name="JavaIntegratedDB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jsj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieDB.jsj" />
+      <module name="JavaIntegratedDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MovieDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Movies" />
+      <item itemvalue="Application.APP" />
+      <item itemvalue="Application.jsj" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.APP" />
+        <item itemvalue="Application.jsj" />
+        <item itemvalue="Application.Movies" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\DrunkCow\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cdd2fdf-20f8-4a98-a666-9e2c3215b9fc" name="Default Changelist" comment="" />
+      <created>1538738165987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538738165987</updated>
+      <workItem from="1538738167882" duration="8066000" />
+      <workItem from="1538780270171" duration="2730000" />
+      <workItem from="1538783447188" duration="21095000" />
+      <workItem from="1538866912443" duration="1875000" />
+      <workItem from="1538873822132" duration="5250000" />
+      <workItem from="1539122391626" duration="11000" />
+      <workItem from="1539122503779" duration="2053000" />
+      <workItem from="1539124591657" duration="142000" />
+      <workItem from="1539124767520" duration="80000" />
+      <workItem from="1539124951108" duration="91000" />
+      <workItem from="1539125066021" duration="160000" />
+      <workItem from="1539125238244" duration="618000" />
+      <workItem from="1539248513807" duration="255000" />
+      <workItem from="1539249045923" duration="395000" />
+      <workItem from="1539249480367" duration="1995000" />
+      <workItem from="1539379579693" duration="10000" />
+      <workItem from="1539880798343" duration="134000" />
+      <workItem from="1539936090836" duration="1520000" />
+      <workItem from="1539937632901" duration="836000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial upload using SQLite with java">
+      <created>1538873954311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538873954311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial upload using SQLite with java">
+      <created>1538873990622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538873990622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added the display all data method to print the while db">
+      <created>1538911913059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538911913059</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edited comments">
+      <created>1538912601859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538912601859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created the GUI for the database">
+      <created>1539125627846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539125627846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created global variables to format user input and remove spaces">
+      <created>1539251186864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539251186864</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47316000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.21691974" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.2594417" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SQL Generator" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.1098081" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Initial upload using SQLite with java" />
+    <MESSAGE value="added the display all data method to print the while db" />
+    <MESSAGE value="edited comments" />
+    <MESSAGE value="Created the GUI for the database" />
+    <MESSAGE value="created global variables to format user input and remove spaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="created global variables to format user input and remove spaces" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MovieDB/Movies.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c927175a-28c9-4d4e-8306-04a7a4435dbe/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43b9ae2a-8ef6-4ca1-87f6-216d37062115/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6842f5a3-b6e0-4ac3-b19f-d00e68a31e84/database/TEST/schema/MOVIES/table/MOVIES" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6842f5a3-b6e0-4ac3-b19f-d00e68a31e84/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/schema/main/table/sqlite_master" />
+    <entry file="das://c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/schema/main/table/blah" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/46bdf240-b550-4c1e-9903-27aab4f164f5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/886e0c57-91f1-4fb1-8f81-c62e363630ed/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/c2ae53ef-be7f-45c9-8b49-e4ac541c89ec.xml" />
+    <entry file="das://c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/schema/main/table/movie list" />
+    <entry file="das://c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/schema/main/table/movie list.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c2ae53ef-be7f-45c9-8b49-e4ac541c89ec/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/34475248-27e1-403c-9954-d7fbb1f67529/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/981bb1f4-de38-464f-a1f4-0d2619d07d3b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f0851138-cfd8-49c2-966d-85a64a418795/schema/main/table/movielist" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0851138-cfd8-49c2-966d-85a64a418795/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f0851138-cfd8-49c2-966d-85a64a418795/schema/main/table/test.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/399799a9-239e-4afd-9dd4-5d35bfcf7dd4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4bf2b1c4-767b-4e70-b325-fcdf0cb902f9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/897eee52-fb2b-497d-85aa-6b4c80da5d09/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f3075372-a21a-4ff3-a4dc-751ece39ce14/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f0851138-cfd8-49c2-966d-85a64a418795/schema/main/table/test" />
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/c0205d57-846d-43fd-9557-73821d0f7635/storage_v2/_src_/schema/main.uQUzAA.meta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0205d57-846d-43fd-9557-73821d0f7635/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48858c43-bb48-48f3-bb1d-04897b2f159e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieDB/SQLTutorial.java" />
+    <entry file="file://$PROJECT_DIR$/src/MovieDB/APP.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieDB/jsj.java" />
+    <entry file="file://$PROJECT_DIR$/src/MovieDB/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="method#getFormattedYear#0;class#Movies#0" />
+            <element signature="method#connect#0;class#Movies#0" />
+            <element signature="method#deleteData#0;class#Movies#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://48858c43-bb48-48f3-bb1d-04897b2f159e/schema/main/table/test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieDB/APP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaIntegratedDB:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaIntegratedDB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sqlite-jdbc-3.16.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
